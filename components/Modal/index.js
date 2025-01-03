@@ -11,8 +11,6 @@ const DefaultModal = ({
 }) => {
   const [qty, setQty] = useState(1);
 
-
-
   return (
     <Fragment>
       <Dialog
@@ -23,7 +21,9 @@ const DefaultModal = ({
       >
         <Grid className="modalBody modal-body">
           <div className="modal-close-btn">
-            <button onClick={onClose}><i className='fa fa-close'></i></button>
+            <button onClick={onClose}>
+              <i className="fa fa-close"></i>
+            </button>
           </div>
           <div className="product-details">
             <div className="row align-items-center">
@@ -165,7 +165,10 @@ const DefaultModal = ({
                     </ul>
                   </div>
                   <div className="m-shape">
-                    <img src='/images/bee2.png' alt="" />
+                    <img
+                      src="https://raw.githubusercontent.com/RedaBourhdadi/honey-shop/refs/heads/main/public/Images/bee2.png"
+                      alt=""
+                    />
                   </div>
                 </div>
               </div>

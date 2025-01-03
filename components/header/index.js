@@ -27,17 +27,15 @@ class Header extends Component {
     });
   };
 
-
   render() {
     const { isCartShow, isWishlistShow, isprofileShow } = this.state;
 
     const ClickHandler = () => {
       window.scrollTo(10, 0);
-    }
+    };
 
     const { carts } = this.props;
     const { wishs } = this.props;
-
 
     let totalwishlistprice = 0;
     if (wishs && wishs.length > 0) {
@@ -53,8 +51,16 @@ class Header extends Component {
             <div className="row">
               <div className="col-lg-3">
                 <div className="navbar-header">
-                  <Link onClick={ClickHandler} href="/home" className="navbar-brand">
-                    <img src='/images/logo.png' alt="icon" /> Annahl
+                  <Link
+                    onClick={ClickHandler}
+                    href="/home"
+                    className="navbar-brand"
+                  >
+                    <img
+                      src="https://raw.githubusercontent.com/RedaBourhdadi/honey-shop/refs/heads/main/public/Images/logo.png"
+                      alt="icon"
+                    />{" "}
+                    Annahl
                   </Link>
                 </div>
               </div>
@@ -70,85 +76,143 @@ class Header extends Component {
                       </Link>
                       <ul className="sub-menu">
                         <li>
-                          <Link onClick={ClickHandler} href="/home">Home Style 1</Link>
+                          <Link onClick={ClickHandler} href="/home">
+                            Home Style 1
+                          </Link>
                         </li>
                         <li>
-                          <Link onClick={ClickHandler} href="/home2">Home Style 2</Link>
+                          <Link onClick={ClickHandler} href="/home2">
+                            Home Style 2
+                          </Link>
                         </li>
                       </ul>
                     </li>
                     <li>
-                      <Link onClick={ClickHandler} href="/about">About</Link>
+                      <Link onClick={ClickHandler} href="/about">
+                        About
+                      </Link>
                     </li>
                     <li>
-                      <Link onClick={ClickHandler} href="/shop">Shop</Link>
+                      <Link onClick={ClickHandler} href="/shop">
+                        Shop
+                      </Link>
                     </li>
                     <li className="menu-item-has-children">
-                      <Link onClick={ClickHandler} href="/cart">Pages</Link>
+                      <Link onClick={ClickHandler} href="/cart">
+                        Pages
+                      </Link>
                       <ul className="sub-menu">
                         <li>
-                          <Link onClick={ClickHandler} href="/cart">Cart</Link>
+                          <Link onClick={ClickHandler} href="/cart">
+                            Cart
+                          </Link>
                         </li>
                         <li>
-                          <Link onClick={ClickHandler} href="/wishlist">Wishlist</Link>
+                          <Link onClick={ClickHandler} href="/wishlist">
+                            Wishlist
+                          </Link>
                         </li>
                         <li>
-                          <Link onClick={ClickHandler} href="/checkout">Checkout</Link>
+                          <Link onClick={ClickHandler} href="/checkout">
+                            Checkout
+                          </Link>
                         </li>
                         <li>
-                          <Link onClick={ClickHandler} href="/404">404 Error</Link>
+                          <Link onClick={ClickHandler} href="/404">
+                            404 Error
+                          </Link>
                         </li>
                         <li className="menu-item-has-children">
-                          <Link onClick={ClickHandler} href="/">Product</Link>
+                          <Link onClick={ClickHandler} href="/">
+                            Product
+                          </Link>
                           <ul className="sub-menu">
                             <li>
-                              <Link onClick={ClickHandler} href="/shop">Product</Link>
+                              <Link onClick={ClickHandler} href="/shop">
+                                Product
+                              </Link>
                             </li>
                             <li>
-                              <Link onClick={ClickHandler} href="/product-single/Raw-Honey">Product Single</Link>
+                              <Link
+                                onClick={ClickHandler}
+                                href="/product-single/Raw-Honey"
+                              >
+                                Product Single
+                              </Link>
                             </li>
                           </ul>
                         </li>
                         <li className="menu-item-has-children">
-                          <Link onClick={ClickHandler} href="/">Project</Link>
+                          <Link onClick={ClickHandler} href="/">
+                            Project
+                          </Link>
                           <ul className="sub-menu">
                             <li>
-                              <Link onClick={ClickHandler} href="/project">Project</Link>
+                              <Link onClick={ClickHandler} href="/project">
+                                Project
+                              </Link>
                             </li>
                             <li>
-                              <Link onClick={ClickHandler} href="/project-single">Project Single</Link>
+                              <Link
+                                onClick={ClickHandler}
+                                href="/project-single"
+                              >
+                                Project Single
+                              </Link>
                             </li>
                           </ul>
                         </li>
                       </ul>
                     </li>
                     <li>
-                      <Link onClick={ClickHandler} href="/">Blog</Link>
+                      <Link onClick={ClickHandler} href="/">
+                        Blog
+                      </Link>
                       <ul className="sub-menu">
                         <li>
-                          <Link onClick={ClickHandler} href="/blog">Blog right sidebar</Link>
+                          <Link onClick={ClickHandler} href="/blog">
+                            Blog right sidebar
+                          </Link>
                         </li>
                         <li>
-                          <Link onClick={ClickHandler} href="/blog-left-sidebar">Blog left sidebar</Link>
+                          <Link
+                            onClick={ClickHandler}
+                            href="/blog-left-sidebar"
+                          >
+                            Blog left sidebar
+                          </Link>
                         </li>
                         <li>
-                          <Link onClick={ClickHandler} href="/blog-fullwidth">Blog fullwidth</Link>
+                          <Link onClick={ClickHandler} href="/blog-fullwidth">
+                            Blog fullwidth
+                          </Link>
                         </li>
                         <li className="menu-item-has-children">
-                          <Link onClick={ClickHandler} href="/">Blog details</Link>
+                          <Link onClick={ClickHandler} href="/">
+                            Blog details
+                          </Link>
                           <ul className="sub-menu">
                             <li>
-                              <Link onClick={ClickHandler} href="/blog-single/traffic">
+                              <Link
+                                onClick={ClickHandler}
+                                href="/blog-single/traffic"
+                              >
                                 Blog details right sidebar
                               </Link>
                             </li>
                             <li>
-                              <Link onClick={ClickHandler} href="/blog-single-left-sidebar/Automatically">
+                              <Link
+                                onClick={ClickHandler}
+                                href="/blog-single-left-sidebar/Automatically"
+                              >
                                 Blog details left sidebar
                               </Link>
                             </li>
                             <li>
-                              <Link onClick={ClickHandler} href="/blog-single-fullwidth/Rules">
+                              <Link
+                                onClick={ClickHandler}
+                                href="/blog-single-fullwidth/Rules"
+                              >
                                 Blog details fullwidth
                               </Link>
                             </li>
@@ -157,7 +221,9 @@ class Header extends Component {
                       </ul>
                     </li>
                     <li>
-                      <Link onClick={ClickHandler} href="/contact">Contact</Link>
+                      <Link onClick={ClickHandler} href="/contact">
+                        Contact
+                      </Link>
                     </li>
                   </ul>
                 </div>
@@ -169,27 +235,42 @@ class Header extends Component {
                       onClick={this.profileHandler}
                       className="profile-toggle-btn"
                     >
-                      <i className={`${isprofileShow ? 'fi ti-close' : 'fi flaticon-user'}`}></i>
+                      <i
+                        className={`${
+                          isprofileShow ? "fi ti-close" : "fi flaticon-user"
+                        }`}
+                      ></i>
                     </button>
                     <div
-                      className={`header-profile-content ${isprofileShow ? "header-profile-content-toggle" : ""
-                        }`}
+                      className={`header-profile-content ${
+                        isprofileShow ? "header-profile-content-toggle" : ""
+                      }`}
                     >
                       <ul>
                         <li>
-                          <Link onClick={ClickHandler} href="/login">Login</Link>
+                          <Link onClick={ClickHandler} href="/login">
+                            Login
+                          </Link>
                         </li>
                         <li>
-                          <Link onClick={ClickHandler} href="/register">Register</Link>
+                          <Link onClick={ClickHandler} href="/register">
+                            Register
+                          </Link>
                         </li>
                         <li>
-                          <Link onClick={ClickHandler} href="/cart">Cart</Link>
+                          <Link onClick={ClickHandler} href="/cart">
+                            Cart
+                          </Link>
                         </li>
                         <li>
-                          <Link onClick={ClickHandler} href="/wishlist">Wishlist</Link>
+                          <Link onClick={ClickHandler} href="/wishlist">
+                            Wishlist
+                          </Link>
                         </li>
                         <li>
-                          <Link onClick={ClickHandler} href="/checkout">Checkout</Link>
+                          <Link onClick={ClickHandler} href="/checkout">
+                            Checkout
+                          </Link>
                         </li>
                       </ul>
                     </div>
@@ -204,8 +285,9 @@ class Header extends Component {
                       <span className="cart-count">{carts.length}</span>
                     </button>
                     <div
-                      className={`mini-cart-content ${isCartShow ? "mini-cart-content-toggle" : ""
-                        }`}
+                      className={`mini-cart-content ${
+                        isCartShow ? "mini-cart-content-toggle" : ""
+                      }`}
                     >
                       <button
                         onClick={this.cartHandler}
@@ -226,7 +308,7 @@ class Header extends Component {
                               <div className="mini-cart-item-des">
                                 <p>{cart.title} </p>
                                 <span className="mini-cart-item-price">
-                                  ${cart.price} x {" "} {cart.qty}
+                                  ${cart.price} x {cart.qty}
                                 </span>
                                 <span className="mini-cart-item-quantity">
                                   <button
@@ -247,16 +329,27 @@ class Header extends Component {
                           Total: ${totalPrice(carts)}
                         </span>
                         <div className="mini-btn">
-                          <Link onClick={ClickHandler} href="/checkout" className="view-cart-btn s1">
+                          <Link
+                            onClick={ClickHandler}
+                            href="/checkout"
+                            className="view-cart-btn s1"
+                          >
                             Checkout
                           </Link>
-                          <Link onClick={ClickHandler} href="/cart" className="view-cart-btn">
+                          <Link
+                            onClick={ClickHandler}
+                            href="/cart"
+                            className="view-cart-btn"
+                          >
                             View Cart
                           </Link>
                         </div>
                       </div>
                       <div className="visible-icon">
-                        <img src='/images/shop/mini-cart/bee2.png' alt="icon" />
+                        <img
+                          src="https://raw.githubusercontent.com/RedaBourhdadi/honey-shop/refs/heads/main/public/Images/shop/mini-cart/bee2.png"
+                          alt="icon"
+                        />
                       </div>
                     </div>
                   </div>
@@ -269,8 +362,9 @@ class Header extends Component {
                       <span className="cart-count">{wishs.length}</span>{" "}
                     </button>
                     <div
-                      className={`mini-wislist-content ${isWishlistShow ? "mini-cart-content-toggle" : ""
-                        }`}
+                      className={`mini-wislist-content ${
+                        isWishlistShow ? "mini-cart-content-toggle" : ""
+                      }`}
                     >
                       <button
                         onClick={this.wishlistHandler}
@@ -312,16 +406,27 @@ class Header extends Component {
                           Total: ${totalwishlistprice}
                         </span>
                         <div className="mini-btn">
-                          <Link onClick={ClickHandler} href="/checkout" className="view-cart-btn s1">
+                          <Link
+                            onClick={ClickHandler}
+                            href="/checkout"
+                            className="view-cart-btn s1"
+                          >
                             Checkout
                           </Link>
-                          <Link onClick={ClickHandler} href="/wishlist" className="view-cart-btn">
+                          <Link
+                            onClick={ClickHandler}
+                            href="/wishlist"
+                            className="view-cart-btn"
+                          >
                             View Wishlist
                           </Link>
                         </div>
                       </div>
                       <div className="visible-icon">
-                        <img src='/images/shop/mini-cart/bee2.png' alt="icon" />
+                        <img
+                          src="https://raw.githubusercontent.com/RedaBourhdadi/honey-shop/refs/heads/main/public/Images/shop/mini-cart/bee2.png"
+                          alt="icon"
+                        />
                       </div>
                     </div>
                   </div>
@@ -343,5 +448,6 @@ const mapStateToProps = (state) => {
   };
 };
 
-
-export default connect(mapStateToProps, { removeFromCart, removeFromWishList })(Header);
+export default connect(mapStateToProps, { removeFromCart, removeFromWishList })(
+  Header
+);

@@ -1,8 +1,8 @@
 [
   {
     "id": 1,
-    "slug":"Manuka-Honey",
-    "proImg": "/images/product/1.png",
+    "slug": "Manuka-Honey",
+    "proImg": "https://raw.githubusercontent.com/RedaBourhdadi/honey-shop/refs/heads/main/public/Images/product/1.png",
     "offer": "-28%",
     "title": "Manuka Honey ",
     "price": "85.00",
@@ -15,8 +15,8 @@
   },
   {
     "id": 2,
-    "slug":"Raw-Honey",
-    "proImg": "/images/product/2.png",
+    "slug": "Raw-Honey",
+    "proImg": "https://raw.githubusercontent.com/RedaBourhdadi/honey-shop/refs/heads/main/public/Images/product/2.png",
     "offer": "-25%",
     "title": "Raw Honey",
     "price": "100.00",
@@ -29,8 +29,8 @@
   },
   {
     "id": 3,
-    "slug":"Wildflower-Honey",
-    "proImg": "/images/product/3.png",
+    "slug": "Wildflower-Honey",
+    "proImg": "https://raw.githubusercontent.com/RedaBourhdadi/honey-shop/refs/heads/main/public/Images/product/3.png",
     "offer": "New",
     "title": "Wildflower Honey",
     "price": "75.00",
@@ -43,8 +43,8 @@
   },
   {
     "id": 4,
-    "slug":"Queen-Bee-Honey",
-    "proImg": "/images/product/4.png",
+    "slug": "Queen-Bee-Honey",
+    "proImg": "https://raw.githubusercontent.com/RedaBourhdadi/honey-shop/refs/heads/main/public/Images/product/4.png",
     "offer": "-20%",
     "title": "Queen Bee Honey",
     "price": "85.00",
@@ -57,8 +57,8 @@
   },
   {
     "id": 5,
-    "slug":"Mustard-Flower-Honey",
-    "proImg": "/images/product/5.png",
+    "slug": "Mustard-Flower-Honey",
+    "proImg": "https://raw.githubusercontent.com/RedaBourhdadi/honey-shop/refs/heads/main/public/Images/product/5.png",
     "offer": "-18%",
     "title": "Mustard Flower Honey",
     "price": "95.00",
@@ -71,8 +71,8 @@
   },
   {
     "id": 6,
-    "slug":"Pure-Hill-Honey",
-    "proImg": "/images/product/6.png",
+    "slug": "Pure-Hill-Honey",
+    "proImg": "https://raw.githubusercontent.com/RedaBourhdadi/honey-shop/refs/heads/main/public/Images/product/6.png",
     "offer": "New",
     "title": "Pure Hill Honey",
     "price": "88.00",
@@ -85,8 +85,8 @@
   },
   {
     "id": 7,
-    "slug":"Black-Seed-Flower-Honey",
-    "proImg": "/images/product/7.png",
+    "slug": "Black-Seed-Flower-Honey",
+    "proImg": "https://raw.githubusercontent.com/RedaBourhdadi/honey-shop/refs/heads/main/public/Images/product/7.png",
     "offer": "-15%",
     "title": "Black Seed Flower Honey",
     "price": "75.00",
@@ -99,8 +99,8 @@
   },
   {
     "id": 8,
-    "slug":"Mango-Flower-Honey",
-    "proImg": "/images/product/8.png",
+    "slug": "Mango-Flower-Honey",
+    "proImg": "https://raw.githubusercontent.com/RedaBourhdadi/honey-shop/refs/heads/main/public/Images/product/8.png",
     "offer": "New",
     "title": "Mango Flower Honey",
     "price": "155.00",
@@ -113,8 +113,8 @@
   },
   {
     "id": 9,
-    "slug":"Manuka-Honey",
-    "proImg": "/images/product/1.png",
+    "slug": "Manuka-Honey",
+    "proImg": "https://raw.githubusercontent.com/RedaBourhdadi/honey-shop/refs/heads/main/public/Images/product/1.png",
     "offer": "-28%",
     "title": "Manuka Honey",
     "price": "155.00",
